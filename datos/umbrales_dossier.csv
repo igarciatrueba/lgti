@@ -1,0 +1,5 @@
+linea,unidades_vigiladas,pct_registros,fallos_detectados,fallos_totales,sensibilidad_pct,capa
+0.50,39,2.2,21,130,16,SINTETICA
+0.20,332,18.4,66,130,51,SINTETICA
+0.15,545,30.3,81,130,62,SINTETICA
+0.10,903,50.2,104,130,80,SINTETICA

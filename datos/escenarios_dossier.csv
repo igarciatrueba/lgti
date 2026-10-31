@@ -1,0 +1,4 @@
+escenario,vehiculos_retirada_amplia,coste_unitario_usd,retirada_amplia_musd,reduccion_poblacion_pct,vehiculos_retirada_dirigida,coste_dirigido_musd,coste_evitado_musd,probabilidad_evento_pct,ahorro_operativo_musd,valor_anual_creado_musd,porcentaje_lgti_pct,pago_lgti_musd,beneficio_neto_cliente_musd,coste_implantacion_musd,recuperacion_inversion_anos,capa
+Conservador,142000,14085,2000,40.00,85200,1200.00,800.00,2.00,7,23.00,15.00,3.45,19.55,24,1.23,ESCENARIO
+Base,142000,14085,2000,65.00,49700,700.00,1300.00,5.00,15.5,80.50,15.00,12.08,68.43,24,0.35,ESCENARIO
+Alto,142000,14085,2000,80.00,28400,400.00,1600.00,10.00,33,193.00,15.00,28.95,164.05,24,0.15,ESCENARIO

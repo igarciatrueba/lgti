@@ -1,0 +1,14 @@
+Id,Evento,Concepto,Valor,Unidad,Categoria,Formula_O_Origen,Fuente,Url,Estado_Verificacion
+C01,Chevrolet Bolt (GM/LGES),Cargo total por la retirada,2000,M USD,dato público observado,Cifra publicada,General Motors (comunicados y cuentas),,URL pendiente de completar
+C02,Chevrolet Bolt (GM/LGES),Importe recuperado de LGES,1900,M USD,dato público observado,Cifra publicada (≈95 % del cargo),General Motors (comunicados y cuentas),,URL pendiente de completar
+C03,Chevrolet Bolt (GM/LGES),Vehículos retirados,142000,vehículos,dato público observado,Cifra publicada por GM (aprox.),General Motors,,URL pendiente de completar
+C04,Chevrolet Bolt (GM/LGES),Coste medio por vehículo,14085,USD/vehículo,cálculo derivado,F1: c = C/N = 2000000000/142000,Elaboración propia a partir de C01 y C03,,No aplica
+C05,Hyundai Kona EV (Hyundai/LGES),Coste total estimado,900,M USD,dato público observado,≈ 1 billón de wones (conversión aprox.),Prensa económica surcoreana (cifra aproximada),,URL pendiente de completar; tipo de cambio por fijar
+C06,Hyundai Kona EV (Hyundai/LGES),Vehículos retirados,81701,vehículos,dato público observado,Cifra publicada,Hyundai Motor / NHTSA,,URL pendiente de completar
+C07,Hyundai Kona EV (Hyundai/LGES),Coste medio por vehículo,11016,USD/vehículo,cálculo derivado,F1: c = 900000000/81701,Elaboración propia a partir de C05 y C06,,No aplica
+C08,Hyundai Kona EV (Hyundai/LGES),Reparto del coste Hyundai,30,%,dato público observado,Reparto reportado,Prensa económica surcoreana,,URL pendiente de completar
+C09,Hyundai Kona EV (Hyundai/LGES),Reparto del coste LGES,70,%,dato público observado,Reparto reportado,Prensa económica surcoreana,,URL pendiente de completar
+C10,Retirada de celdas defectuosas (ejemplo Swiss Re),Coste de piezas,34,% del coste total,dato público observado,Diapositiva 10,Swiss Re (2024). Autozulieferer. Presentación para la 23.ª Fachtagung Haftpflicht de la SVV,https://www.svv.ch/sites/default/files/2024-06/SVV%20Autozulieferer%202024_clean.pdf,Verificado en el PDF (sin importe total ni moneda)
+C11,Retirada de celdas defectuosas (ejemplo Swiss Re),Coste de mano de obra,19,% del coste total,dato público observado,Diapositiva 10,Swiss Re (2024),https://www.svv.ch/sites/default/files/2024-06/SVV%20Autozulieferer%202024_clean.pdf,Verificado en el PDF
+C12,Retirada de celdas defectuosas (ejemplo Swiss Re),Alquiler de centros de pruebas,25,% del coste total,dato público observado,Diapositiva 10,Swiss Re (2024),https://www.svv.ch/sites/default/files/2024-06/SVV%20Autozulieferer%202024_clean.pdf,Verificado en el PDF
+C13,Retirada de celdas defectuosas (ejemplo Swiss Re),Coste de manipulación,22,% del coste total,dato público observado,Diapositiva 10,Swiss Re (2024),https://www.svv.ch/sites/default/files/2024-06/SVV%20Autozulieferer%202024_clean.pdf,Verificado en el PDF

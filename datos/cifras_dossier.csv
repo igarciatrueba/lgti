@@ -1,0 +1,121 @@
+id,cifra,valor,unidad,categoria,capa,fuente,apartado_dossier
+R01,Vehículos retirados Bolt por GM,142000,vehículos,dato público observado,REAL,GM y dossier,3.1
+R02,Cargo total de la retirada Bolt,2000,M USD,dato público observado,REAL,GM y dossier,3.1
+R03,Importe recuperado de LGES,1900,M USD,dato público observado,REAL,GM y dossier,3.1
+R03_PCT,Proporción recuperada de LGES,95,%,cálculo derivado,REAL,F1 y dossier,3.1
+R04,Coste medio por vehículo Bolt (F1),14085,USD/vehículo,cálculo derivado,REAL,F1: 2000 M USD / 142000,3.1
+R05,Kona EV coste estimado,900,M USD,dato público observado,REAL,Dossier,3.1
+R05_VEHICULOS,Kona EV vehículos del denominador global,81701,vehículos,dato público observado,REAL,Dossier,3.1
+R05_COSTE_MEDIO,Kona EV coste medio por vehículo,11016,USD/vehículo,cálculo derivado,REAL,F1 y dossier,3.1
+R05_NHTSA_USA,Kona EV población NHTSA en Estados Unidos no comparable,12256,vehículos,dato público observado,REAL,NHTSA,3.1
+R06_CAMP_1,Actuaciones primera campaña Bolt,50932,actuaciones,dato público observado,REAL,NHTSA,3.1
+R06_CAMP_2,Actuaciones segunda campaña Bolt,57414,actuaciones,dato público observado,REAL,NHTSA,3.1
+R06_CAMP_3,Actuaciones tercera campaña Bolt,52414,actuaciones,dato público observado,REAL,NHTSA,3.1
+R06,Suma de actuaciones de tres campañas Bolt,160760,actuaciones,cálculo derivado,REAL,50932 + 57414 + 52414,3.1
+R07,NO usar: cifra no reproducible del plan original,110324,vehículos,supuesto académico,REAL,Plan original no verificado,3.1
+NHTSA_CAMP_REG,Registros de campañas NHTSA,246908,registros,dato público observado,REAL,NHTSA,3.2
+NHTSA_CAMP_BAT,Campañas de batería de tracción,172,campañas,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_CAMP_PERIM,Campañas en perímetro Bolt y Kona,8,campañas,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_RECL_REG,Registros de reclamaciones NHTSA,1117364,registros,dato público observado,REAL,NHTSA,3.2
+NHTSA_RECL_FILAS,Filas de reclamaciones filtradas,1822,filas,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_RECL_UNICAS,Reclamaciones distintas,1282,reclamaciones,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_RECL_MULTI,Reclamaciones ligadas a más de una campaña,1026,reclamaciones,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_SEGUIM_REG,Registros de seguimiento trimestral,76663,registros,dato público observado,REAL,NHTSA,3.2
+NHTSA_SEGUIM_FILAS,Filas de seguimiento filtradas,851,filas,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_POTAFF_BRUTA,Población afectada bruta,24375746,vehículos,cálculo derivado,REAL,NHTSA POTAFF,3.2
+NHTSA_POTAFF_DEDUP,Población afectada deduplicada por CAMPNO,1511316,vehículos,cálculo derivado,REAL,Fórmula P,3.2
+NHTSA_POTAFF_FACTOR,Factor de sobreconteo aproximado,16,veces,cálculo derivado,REAL,POTAFF bruta / deduplicada,3.2
+NHTSA_EQ_PRESENTES,Campañas EQ22-001 presentes,6,campañas,cálculo derivado,REAL,NHTSA depurada,3.2
+NHTSA_EQ_TOTAL,Campañas EQ22-001 esperadas,7,campañas,dato público observado,REAL,NHTSA,3.2
+NHTSA_F2_REPARADAS,Vehículos reparados campaña 21V-560,51834,vehículos,dato público observado,REAL,NHTSA,3.2
+NHTSA_F2_POBLACION,Población campaña 21V-560,57414,vehículos,dato público observado,REAL,NHTSA,3.2
+NHTSA_F2_TASA,Tasa de reparación campaña 21V-560 (F2),90.3,%,cálculo derivado,REAL,F2,3.2
+NHTSA_F3_BOLT,Plazo de detección campaña 20V-701 (F3),494,días,cálculo derivado,REAL,F3,3.2
+NHTSA_F3_KONA_1,Plazo negativo Kona 1 (indicador),-393,días,cálculo derivado,REAL,F3,3.2
+NHTSA_F3_KONA_2,Plazo negativo Kona 2 (indicador),-254,días,cálculo derivado,REAL,F3,3.2
+G_REGISTROS,Registros sintéticos,1800,registros,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_UNIDADES_TOTALES,Unidades sintéticas representadas,605250,unidades,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_PROVEEDORES,Proveedores sintéticos,5,proveedores,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_PLANTAS,Plantas sintéticas,4,plantas,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_LOTES_MATERIAL,Lotes de material,200,lotes,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_LOTES_CELDAS,Lotes de celdas,397,lotes,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_CELDAS,Celdas,1800,celdas,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_MODULOS,Módulos,450,módulos,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_PACKS,Packs,1800,packs,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_VIN,VIN,1800,VIN,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_DISCREPANCIAS,Registros con indicadores de genealogía discrepantes,228,registros,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_DISCREP_1,Discrepancia Genealogy=1 y documentación incompleta,160,registros,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_DISCREP_2,Discrepancia Genealogy=0 y documentación completa,68,registros,cálculo derivado,SINTETICA,Base maestra sintética,3.3
+G_UNIDADES_COMPLETAS,Unidades con genealogía completa por dos indicadores,530200,unidades,cálculo derivado,SINTETICA,Regla G,3.3
+G_PCT_COMPLETA,Genealogía completa oficial,87.6,%,cálculo derivado,SINTETICA,Regla G,3.3
+G_UNIDADES_SIN_EVIDENCIA,Grupo C sin evidencia completa,75050,unidades,cálculo derivado,SINTETICA,Regla G,3.3
+G_PCT_SIN_EVIDENCIA,Proporción sin evidencia completa,12.4,%,cálculo derivado,SINTETICA,Regla G,3.3
+G_SIMPLE_UNIDADES_NO_USAR,NO usar como genealogía oficial: unidades con un solo indicador,582550,unidades,cálculo derivado,SINTETICA,Genealogy_Complete sin documentación,3.3
+G_SIMPLE_PCT_NO_USAR,NO usar como genealogía oficial: cobertura con un solo indicador,96.3,%,cálculo derivado,SINTETICA,Genealogy_Complete sin documentación,3.3
+P_FALLOS,Fallos reales,130,fallos,cálculo derivado,SINTETICA,Failure_Actual,3.4
+P_AUC,Área bajo la curva ROC,0.76,AUC,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_LINEA,Línea de vigilancia recomendada,0.15,probabilidad,objetivo de diseño,SINTETICA,Dossier,3.4
+P_LINEA_REG,Registros vigilados a línea 0.15,545,registros,cálculo derivado,SINTETICA,Risk_Probability >= 0.15,3.4
+P_LINEA_PCT,Registros vigilados a línea 0.15,30.3,%,cálculo derivado,SINTETICA,Risk_Probability >= 0.15,3.4
+P_LINEA_FALLOS,Fallos detectados a línea 0.15,81,fallos,cálculo derivado,SINTETICA,Risk_Probability >= 0.15,3.4
+P_LINEA_SENS,Sensibilidad a línea 0.15,62,%,cálculo derivado,SINTETICA,Fórmula S,3.4
+P_FAILURE_PRED_NO_USAR,NO usar para la línea 0.50: positivos de Failure_Predicted,40,registros,cálculo derivado,SINTETICA,Failure_Predicted,3.4
+P_DEFECTOS_NO_PREDICTOR,Defectos prohibidos como predictor por circularidad,98,registros,cálculo derivado,SINTETICA,Defect_Flag,3.4
+P_UMBRAL_0_50_UNIDADES_VIGILADAS,Registros vigilados con línea 0.50,39,registros,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_50_PCT_REGISTROS,Proporción de registros vigilados con línea 0.50,2.2,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_50_FALLOS_DETECTADOS,Fallos detectados con línea 0.50,21,fallos,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_50_SENSIBILIDAD_PCT,Sensibilidad con línea 0.50,16,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_20_UNIDADES_VIGILADAS,Registros vigilados con línea 0.20,332,registros,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_20_PCT_REGISTROS,Proporción de registros vigilados con línea 0.20,18.4,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_20_FALLOS_DETECTADOS,Fallos detectados con línea 0.20,66,fallos,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_20_SENSIBILIDAD_PCT,Sensibilidad con línea 0.20,51,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_15_UNIDADES_VIGILADAS,Registros vigilados con línea 0.15,545,registros,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_15_PCT_REGISTROS,Proporción de registros vigilados con línea 0.15,30.3,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_15_FALLOS_DETECTADOS,Fallos detectados con línea 0.15,81,fallos,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_15_SENSIBILIDAD_PCT,Sensibilidad con línea 0.15,62,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_10_UNIDADES_VIGILADAS,Registros vigilados con línea 0.10,903,registros,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_10_PCT_REGISTROS,Proporción de registros vigilados con línea 0.10,50.2,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_10_FALLOS_DETECTADOS,Fallos detectados con línea 0.10,104,fallos,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+P_UMBRAL_0_10_SENSIBILIDAD_PCT,Sensibilidad con línea 0.10,80,%,cálculo derivado,SINTETICA,Risk_Probability y Failure_Actual,3.4
+T7_CONSERVADOR_REDUCCION_POBLACION_PCT,Reducción de población - Conservador,40.00,%,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_COSTE_EVITADO_MUSD,Coste evitado si ocurre el evento (F6) - Conservador,800.00,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_PROBABILIDAD_EVENTO_PCT,Probabilidad anual del evento - Conservador,2.00,%,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_AHORRO_OPERATIVO_MUSD,Ahorro operativo anual - Conservador,7,M USD,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_VALOR_ANUAL_CREADO_MUSD,Valor anual creado (F7) - Conservador,23.00,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_PAGO_LGTI_MUSD,Pago a LGTI (F8) - Conservador,3.45,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_BENEFICIO_NETO_CLIENTE_MUSD,Beneficio neto del cliente (F9) - Conservador,19.55,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_COSTE_IMPLANTACION_MUSD,Coste de implantación - Conservador,24,M USD,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_CONSERVADOR_RECUPERACION_INVERSION_ANOS,Recuperación de la inversión (F10) - Conservador,1.23,años,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_REDUCCION_POBLACION_PCT,Reducción de población - Base,65.00,%,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_COSTE_EVITADO_MUSD,Coste evitado si ocurre el evento (F6) - Base,1300.00,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_PROBABILIDAD_EVENTO_PCT,Probabilidad anual del evento - Base,5.00,%,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_AHORRO_OPERATIVO_MUSD,Ahorro operativo anual - Base,15.5,M USD,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_VALOR_ANUAL_CREADO_MUSD,Valor anual creado (F7) - Base,80.50,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_PAGO_LGTI_MUSD,Pago a LGTI (F8) - Base,12.08,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_BENEFICIO_NETO_CLIENTE_MUSD,Beneficio neto del cliente (F9) - Base,68.43,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_COSTE_IMPLANTACION_MUSD,Coste de implantación - Base,24,M USD,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_BASE_RECUPERACION_INVERSION_ANOS,Recuperación de la inversión (F10) - Base,0.35,años,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_REDUCCION_POBLACION_PCT,Reducción de población - Alto,80.00,%,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_COSTE_EVITADO_MUSD,Coste evitado si ocurre el evento (F6) - Alto,1600.00,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_PROBABILIDAD_EVENTO_PCT,Probabilidad anual del evento - Alto,10.00,%,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_AHORRO_OPERATIVO_MUSD,Ahorro operativo anual - Alto,33,M USD,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_VALOR_ANUAL_CREADO_MUSD,Valor anual creado (F7) - Alto,193.00,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_PAGO_LGTI_MUSD,Pago a LGTI (F8) - Alto,28.95,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_BENEFICIO_NETO_CLIENTE_MUSD,Beneficio neto del cliente (F9) - Alto,164.05,M USD,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_COSTE_IMPLANTACION_MUSD,Coste de implantación - Alto,24,M USD,supuesto académico,ESCENARIO,Tabla 7 calculada,3.5
+T7_ALTO_RECUPERACION_INVERSION_ANOS,Recuperación de la inversión (F10) - Alto,0.15,años,cálculo derivado,ESCENARIO,Tabla 7 calculada,3.5
+T7_RETORNO_POR_DOLAR,Beneficio neto por USD pagado a LGTI,5.7,USD/USD,cálculo derivado,ESCENARIO,(1-pi)/pi,3.5
+SENS_PROB_2,Sensibilidad B con probabilidad 2 %,35.3,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_PROB_10,Sensibilidad B con probabilidad 10 %,123.7,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_RED_40,Sensibilidad B con reducción 40 %,47.2,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_RED_80,Sensibilidad B con reducción 80 %,81.2,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_AHORRO_7,Sensibilidad B con ahorro 7 M USD,61.2,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_AHORRO_33,Sensibilidad B con ahorro 33 M USD,83.3,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_PI_10,Sensibilidad B con precio LGTI 10 %,72.5,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_PI_20,Sensibilidad B con precio LGTI 20 %,64.4,M USD,cálculo derivado,ESCENARIO,Sensibilidad Tabla 7,3.5
+SENS_I_6_2_COSTE,Referencia de coste I=6.2 M USD,6.2,M USD,cálculo derivado,ESCENARIO,Sensibilidad de I,3.5
+SENS_I_6_2_PLAZO,Recuperación base con I=6.2 M USD,0.09,años,cálculo derivado,ESCENARIO,Sensibilidad de I,3.5
+SENS_I_24_COSTE,Referencia de coste I=24 M USD,24,M USD,supuesto académico,ESCENARIO,Sensibilidad de I,3.5
+SENS_I_24_PLAZO,Recuperación base con I=24 M USD,0.35,años,cálculo derivado,ESCENARIO,Sensibilidad de I,3.5
+SENS_I_50_COSTE,Referencia de coste I=50 M USD,50,M USD,supuesto académico,ESCENARIO,Sensibilidad de I,3.5
+SENS_I_50_PLAZO,Recuperación base con I=50 M USD,0.73,años,cálculo derivado,ESCENARIO,Sensibilidad de I,3.5

@@ -1,0 +1,5 @@
+Id,Solucion_Referencia,Tipo,Concepto,Minimo,Maximo,Unidad,Categoria,Fuente,Url,Estado_Verificacion
+P01,LNS Research (MES),Referencia de mercado,Precio por usuario,50.0,300.0,USD/usuario/mes,dato público observado (fuente secundaria),LNS Research,,URL pendiente de completar
+P02,LNS Research (MES),Referencia de mercado,Coste anual de licencia,100000.0,500000.0,USD/año,dato público observado (fuente secundaria),LNS Research,,URL pendiente de completar
+P03,1factory (calidad),Precio de lista,Precio por usuario,75.0,75.0,USD/usuario/mes,dato público observado,1factory,,URL pendiente de completar
+P04,LGTI (propuesta),Decisión pendiente,Precio de la licencia de LGTI,,,USD/año,supuesto académico,Por decidir; se calibrará con P01-P03 y el coste evitado,,Pendiente de decisión

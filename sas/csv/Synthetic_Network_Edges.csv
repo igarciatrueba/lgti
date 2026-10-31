@@ -1,0 +1,25 @@
+Source_Node,Target_Node,Units_Represented,Link_Type,Capa
+Andes Lithium,Michigan,26600,Proveedor a planta,SINTETICA
+Andes Lithium,Nanjing,18750,Proveedor a planta,SINTETICA
+Andes Lithium,Ochang,36300,Proveedor a planta,SINTETICA
+Andes Lithium,Wroclaw,31950,Proveedor a planta,SINTETICA
+Baltic Separator,Michigan,31750,Proveedor a planta,SINTETICA
+Baltic Separator,Nanjing,33550,Proveedor a planta,SINTETICA
+Baltic Separator,Ochang,24550,Proveedor a planta,SINTETICA
+Baltic Separator,Wroclaw,29600,Proveedor a planta,SINTETICA
+EcoCath Materials,Michigan,33500,Proveedor a planta,SINTETICA
+EcoCath Materials,Nanjing,36150,Proveedor a planta,SINTETICA
+EcoCath Materials,Ochang,38100,Proveedor a planta,SINTETICA
+EcoCath Materials,Wroclaw,35550,Proveedor a planta,SINTETICA
+Great Lakes Electrolytes,Michigan,38750,Proveedor a planta,SINTETICA
+Great Lakes Electrolytes,Nanjing,35750,Proveedor a planta,SINTETICA
+Great Lakes Electrolytes,Ochang,23150,Proveedor a planta,SINTETICA
+Great Lakes Electrolytes,Wroclaw,29200,Proveedor a planta,SINTETICA
+NovaCath Industries,Michigan,21950,Proveedor a planta,SINTETICA
+NovaCath Industries,Nanjing,25250,Proveedor a planta,SINTETICA
+NovaCath Industries,Ochang,30900,Proveedor a planta,SINTETICA
+NovaCath Industries,Wroclaw,23950,Proveedor a planta,SINTETICA
+Michigan,Michigan,0,Nodo planta,SINTETICA
+Nanjing,Nanjing,0,Nodo planta,SINTETICA
+Ochang,Ochang,0,Nodo planta,SINTETICA
+Wroclaw,Wroclaw,0,Nodo planta,SINTETICA
